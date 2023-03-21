@@ -1,0 +1,86 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  color: darkslateblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #617143;
+  text-align: justify;
+  
+}
+#partner {
+  
+    width: 100%;
+    /*transform: rotate(10deg);*/
+    position: absolute;
+    text-align: left;
+    margin: 2%;
+    padding: 2%;
+    border: 3px solid #EDE9D5;
+    color:#EDE9D5;
+}
+
+/* Headings */
+header {
+  position: relative;
+  padding: 0%;
+  width: 100%;
+  margin:0%;
+}
+
+main {
+  position: relative;
+}
+
+
+/* Containers */
+
+.container-fluid-title{
+  padding: 1% 1%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #617143;
+  color: #EDE9D5;
+  padding: 10%;
+}
+#einleitung {
+  padding: 1%;
+  text-align: left;
+}
+
+
+.white-section {
+  background-color: #fff;
+  color: #617143;
+  
+}
+#home {
+  padding: 20% 15%;
+  background-image: url('../images/bild2.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-position-y:center;
+  background-color: white;
+
+}
+
+
+/* Navigation Bar */
+a.navbar-brand {
+  color: darkslateblue;
+}
+a.nav-link {
+  color: darkslateblue;
+  font-family: "Montserrat";
+  font-size: large;
+  font-weight: bold;
+}
