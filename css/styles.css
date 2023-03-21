@@ -3,6 +3,7 @@ body {
   font-family: "Montserrat";
   text-align: center;
   color: darkslateblue;
+  background-color: transparent;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,6 +14,9 @@ p {
   color: #617143;
   text-align: justify;
   
+}
+i {
+  font-size: smaller;
 }
 #partner {
   
@@ -59,9 +63,15 @@ main {
 
 
 .white-section {
-  background-color: #fff;
+  background-color: white;
   color: #617143;
   
+}
+#lora {
+  margin: 10%;
+}
+#preise {
+  margin: 10%;
 }
 #home {
   padding: 20% 15%;
@@ -75,12 +85,16 @@ main {
 
 
 /* Navigation Bar */
-a.navbar-brand {
-  color: darkslateblue;
-}
-a.nav-link {
+
+.nav-link {
   color: darkslateblue;
   font-family: "Montserrat";
   font-size: large;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }

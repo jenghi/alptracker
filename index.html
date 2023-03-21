@@ -20,47 +20,74 @@
 
 </head>
 <body>
-  <section class="white-section fixed-top" id="title">
+  <div class="row fixed-top">
+    <div class="col-lg-12" >
+      <section class="white-section " id="title">
 
-    <div class="container-fluid">
+        <div class="container-fluid" style="padding:0%">
 
-      <!-- Nav Bar -->
+          <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bs-light-text">
+          <nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
 
-        <a class="navbar-brand" href=""><img src="images/logo2.png" height="80" alt="Alptracker AG" /></a>
+            <a class="navbar-brand" href=""><img src="images/logo2.png" height="80" alt="Alptracker AG" /></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#produkte">Produkte</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Über uns </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Kontakt</a>
-            </li>
-          </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#produkte" style="color: darkslateblue">Produkte</a>
+                </li>
 
-        </div>
-      </nav>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" style="color: darkslateblue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produkte
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#tracker">Tracker</a></li>
+                    <li><a class="dropdown-item" href="#antenne">Antenne</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#lora">LORA</a></li>
+                  </ul>
+
+                  
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
 
 
-      <!-- Title -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#preise" style="color: darkslateblue">Preise</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#galerie" style="color: darkslateblue">Galerie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta" style="color: darkslateblue">Kontakt</a>
+                </li>
+              </ul>
 
-      <div class="row">
-        <div class="col-lg-12">
-         
-        </div>
-      </div>
+            </div>
+          </nav>
 
-  </section>
+
+       
+
+      </section>
+    </div>
+  </div>
+
 
   <!-- HOME -->
   <section class="white-section" id="home" >
@@ -130,9 +157,271 @@
 
 
   <!-- PRODUKTE -->
-  <section class="colored-section" id="produkte">
-  
+  <section class="colored-section" id="tracker">
+    <div class="container">
+      <div class="row col-lg-12">
+        <div class="col-lg-12">
+          <h1>Tracker</h1>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/tracker.png" alt="Tracker"/>
+        </div>
+        <div class="col-md-6" style="text-align: left">Unsere Sender sind nicht nur 
+          beständig und für den Einsatz bei 
+          jeder Witterung geeignet, sondern sind auch ausgesprochen 
+          energieeffizient. Die Lebensdauer 
+          der Batterie wird ausserdem 
+          durch den Betrieb in einem LoRaWAN-Netz geschont. Der Wechsel der Batterien (2xAA, 1.5V) 
+          kann selbstständig erledigt werden. </div>
+      </div>
+            
+    </div>
   </section>
+
+   <!-- LORA -->
+ <section class="white-section" id="lora">
+    <div class="container">
+      <div class="row col-lg-12">
+        <div class="col-lg-12">
+          <h1>Funktionsweise LORA</h1>
+          <br>
+          LoRa steht für „Long Range“ und ist eine Funktechnologie, welche neu für das IoT (Internet of Things) entwickelt wurde. Die LoRa Technologie hat eine grosse Funkweite und einen geringen Energieverbrauch. 
+          Lorawan beschreibt den gesamten Netzwerkaufbau – sowie die Kommunikation der einzelnen Komponenten untereinander. Damit wird sichergestellt, dass jedes LoRaWAN-fähige Gerät ohne Probleme in ein bereits vorhandenes Netzwerk eingebunden werden kann.
+
+          <br><br>
+          <img src="images/lora.png" alt="LORA" width="80%"/>
+        
+        </div>
+        <div class="col-lg-12">
+          <br>
+          Nähere Informationen in unserem Erklärvideo.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Antenne -->
+ <section class="colored-section" id="antenne">
+  <div class="container">
+    <div class="row col-lg-12">
+      <div class="col-lg-12">
+        <h1>Antenne</h1>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-md-6" style="text-align: left">Die Antennen wurden für das raue und harte Alpingebiet konstruiert und können auf einer kleinen soliden Felsfläche errichtet werden. 
+        Sie halten Temperaturen von +90 bis – 40 Grad stand, sind windschnittig gestaltet, so dass der Wind eine kleinstmögliche Angriffsfläche hat.
+        Alle Elemente sind aus rostfreiem und witterungsfestem Material.
+        Alle elektrischen Komponenten sind für den Einsatz im Aussenbereich ausgelegt und sind vor Wasser geschützt
+        Die Antenne kann man auch im schrägem Gelände ins Niveau bringen
+        
+      </div>
+      <div class="col-md-6">
+        <img src="images/antenne.jpg" alt="Alptracker Antenne"/>
+      </div>
+    </div>
+          
+  </div>
+</section>
+
+<!-- Kosten -->
+<section class="white-section" id="preise">
+  <div class="row col-lg-12">
+    <div class="col-lg-12">
+      <h1>Preise 2023</h1>
+      <br>
+      
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Tracker</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3">1 Sender</div>
+            <div class="col-lg-3"> 109.00 CHF </div>
+            <div class="col-lg-3"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3">5 Sender</div>
+            <div class="col-lg-3"> 495.00 CHF</div>
+            <div class="col-lg-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Tracker mit Sommerabo</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+          <div class="row">
+            
+            <div class="col-lg-6">1-4 Sender</div>
+            <div class="col-lg-6"> 60.00 CHF*</div>
+           
+          </div>
+          <div class="row">
+           
+            <div class="col-lg-6">5-19 Sender</div>
+            <div class="col-lg-6"> 43.00 CHF*</div>
+          
+          </div>
+          <div class="row" >
+            
+            <div class="col-lg-6">20-49 Sender</div>
+            <div class="col-lg-6"> 41.00 CHF*</div>
+          
+          </div>
+          <div class="row">
+            
+            <div class="col-lg-6">50+ Sender</div>
+            <div class="col-lg-6"> auf Anfrage</div>
+            
+          </div>
+
+          <div class="row">
+            
+            <div class="col-lg-12"><br><br><i>*Preis pro Sender / pro Jahr</i></div>
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Tracker mit Winterabo</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+          <div class="row">
+            
+            <div class="col-md-6">1-4 Sender</div>
+            <div class="col-md-6"> 67.00 CHF*</div>
+           
+          </div>
+          <div class="row">
+           
+            <div class="col-md-6">5-19 Sender</div>
+            <div class="col-md-6"> 48.00 CHF*</div>
+          
+          </div>
+          <div class="row" >
+            
+            <div class="col-md-6">20-49 Sender</div>
+            <div class="col-md-6"> 45.00 CHF*</div>
+          
+          </div>
+          <div class="row">
+            
+            <div class="col-md-6">50+ Sender</div>
+            <div class="col-md-6"> auf Anfrage</div>
+            
+          </div>
+          <div class="row">
+            
+            <div class="col-md-12"><br><br><i>*Preis pro Sender / pro Jahr</i></div>
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-6 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Login Alptracker-Portal</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><small class="text-muted fw-light"></small></h1>
+          <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3">1 Login</div>
+            <div class="col-lg-3"> 65.00 CHF* </div>
+            <div class="col-lg-3"></div>
+          </div>
+          <div class="row">
+            
+            <div class="col-lg-12"><br><br><i>*Preis pro Benutzer / pro Jahr</i></div>
+           
+           
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Galerie -->
+<section class="colored-section" id="galerie">
+  <div class="container">
+    <div class="row col-lg-12">
+      <div class="col-lg-12">
+        <h1>Galerie</h1>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-md-12" style="text-align: left">
+
+        <section class="colored-section" id="testimonials">
+
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                <img class="testimonial-image" src="images/antenne.jpg" alt="dog-profile">
+                <em>Alpe sowieso</em>
+              </div>
+              <div class="carousel-item container-fluid">
+                <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+                <img class="testimonial-image" src="images/tracker.png" alt="lady-profile">
+                <em>Beverly, Illinois</em>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+      
+        </section>
+      
+      
+    </div>
+          
+  </div>
+</section>
   
   <!-- FUSS -->
       <footer class="footer mt-auto py-3 bg-light fixed-bottom">
